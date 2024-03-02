@@ -15,7 +15,10 @@ def get_meal(idx):
     if idx == 0:
         _bread_meal = cards[idx].select("div.card-content div.content")[1]
         meal_list.append("<span OR") #으악 ㅋㅋㅋㅋㅋ
-        meal_list.append("<span"+str(_bread_meal).strip("<div class=\"content\">").strip("</div>")) # Super spaghetti
+        if '<span' in str(_bread_meal): 
+            meal_list.append(str(_bread_meal).strip("<div class=\"content\">").strip("</div>")) # Super spaghetti
+        else:
+            meal_list.append("<span"+str(_bread_meal).strip("<div class=\"content\">").strip("</div>")) # Super spaghetti
 
     meal_str_list = []
     for food in meal_list:
