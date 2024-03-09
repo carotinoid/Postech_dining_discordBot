@@ -12,6 +12,7 @@ Nobody can use this rather than POSTECHIAN. (maybe... KAISTian can use... But wh
 ## Features
 - automatic crawling hak-sik
 - automatic discord message sending, containing information of today's haksik
+- (Optional feature) automatic crawling and sending KAIST dining
 
 ## Requirements
 
@@ -24,6 +25,7 @@ This project requires `Python 3.*`, *requests*, *beautifulsoup4* for running.
 
 
 2. Create the file named `webhook`, and paste the webhook token(URL) of your own discord server. Then this program send message to your own discord server.
+(Optional) Create the file named `webhook2`, and paste the webhook token(URL) of the channel for KAIST dining.
 
 3. Use schedule program such as `crontab` on server for sending automatically.
     - Running `request.py` gathers information from Postech Dining site and save to the cache file.
