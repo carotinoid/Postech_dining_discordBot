@@ -35,7 +35,9 @@ This project requires `Python 3.*`, *requests*, *beautifulsoup4* for running.
 This project is open to contribution, you are welcome to make a pull request :)
 
 ## Special Thanks
-Thanks, [JJT](https://github.com/Powering111)! he is god!
+Thanks,
+- [JJT](https://github.com/Powering111) (he is god!)
+- [Quasar-Kim](https://github.com/Quasar-Kim)
 
 ---
 
